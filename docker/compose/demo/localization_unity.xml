@@ -16,7 +16,6 @@
      -->
 
     <!-- 改成線上建圖 -->
-    <param name="use_sim_time" value="false"/>
     <arg name="slam_params_file_path" default="$(dirname)/slam_params.yaml"/>
     <include file="$(find-pkg-share slam_toolbox)/launch/online_sync_launch.py">
         <arg name="slam_params_file" value="$(var slam_params_file_path)"/>
